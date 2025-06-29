@@ -1,0 +1,126 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+
+.btn-outer{
+    /* z-index:1000000; */
+}
+.whatsappbtn{
+    border: 1px solid #27AE60;
+    color: #27AE60;
+    font-size: 16px;
+    padding: 10px 18px;
+}
+
+.whatsappbtn:hover{
+     border: 1px solid #27AE60;
+     color: #27AE60;
+}
+
+.whatsappbtn .fa-brands{
+    margin-right: 7px;
+    width: 20px;
+    height: 20px;
+}
+
+.call{
+    font-size: 16px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    /* margin-left: 10px; */
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    border: 1px solid transparent;
+    color: white;
+    
+}
+
+.fa-phone{
+    margin-right: 7px;
+    color: white;
+}
+
+.banner-content h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 68px;
+    font-family: inter;
+    color:#0A2134;
+    
+}
+
+.banner-content h1 span{
+    color:#2699FB;
+    background: url(../images/border.png) no-repeat bottom;
+    padding-bottom: 24px;
+}
+
+.banner-content p{
+    font-size: 22px;
+    padding-top: 1rem;
+}
+
+.banner-content ul li{
+    font-size: 22px;
+    list-style: none;
+}
+
+.banner-content ul li i{
+    color: #2699FB;
+    margin-right: 1.3rem;
+    
+}
+
+
+
+
+.banner-content .bannerButtons button{
+ padding: 10px 10px;
+ border-radius: 8px;
+ font-size: 20px;
+ 
+}
+
+.banner-content .bannerButtons button:first-child{
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+
+.banner-content .bannerButtons button:nth-child(2){
+      font-weight: 700;
+      border: 1px solid #D0D5DD;
+}
+
+.bannerForm{
+    padding:40px;
+}
+
+.bannerForm p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #101828;
+}
+
+.bannerForm h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: #43505B;
+}
+
+.form-label{
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.bannerForm .formBtn{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    border-style: none;
+    background: linear-gradient(to right,#0ACEFE,#2699FB);
+}
